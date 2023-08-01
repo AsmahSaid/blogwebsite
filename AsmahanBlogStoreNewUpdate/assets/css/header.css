@@ -1,0 +1,116 @@
+
+body{
+    line-height: 1.4;
+    color: #3c393d;}
+img{
+    width: 100%;
+    display: block;}
+
+.container{
+    max-width: 1320px;
+    margin: auto;
+    padding: 12px;}
+
+/* لاضافة صورة خلفية للمحتوى الموجود في header الذي تم اضافة في كود html */
+/* header */
+header{
+    min-height: 100px;
+    /*اللون فوق الصورة الاساسية مثل الاضاءة من اسفل لاعلى*/
+    background: linear-gradient(rgba(214, 231, 184, 0.686), rgba(214, 231, 184, 0.686)),
+     url(../images/main.jpg) center/cover no-repeat fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    max-width: 100%;height:auto;}
+
+/*  لون الهيدر الذي توجد به المنيو*/
+.headermenue{
+    background:#2d5c36;
+    padding: 20px;}
+.navbar-title{
+    color: white;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 0.8px;}
+    .headermenue{
+        font-style: italic;
+    }
+
+/*style of header item contactus, about store,homepage, categories*/
+.header-itemslist{
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;}
+
+.header-itemslist a{
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color:white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px;
+    letter-spacing: 3px;
+    transition: opacity 0.8}
+
+/* selector is used to select elements when you mouse over them */
+.header-itemslist a:hover{
+    opacity: 0.7;}
+
+    .designblog{
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: rgb(67, 65, 65);}
+    
+    .designblog-title{
+        font-size: 80px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        line-height: 1.2;}
+    
+    .designblog-title span{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+        color: goldenrod;}
+    
+    .designblog p{
+        padding: 15px;
+        font-size: 20px;
+        text-transform: capitalize;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 300;
+        word-spacing: 2px;}
+    
+    .designblog form{
+        background: white;
+        border-radius: 20px;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;}
+    
+    .inputinsearch{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 18px;
+        width: 100%;
+        outline: 0;
+        padding: 10px;
+        border: none;}
+    
+    .inputinsearch::placeholder{
+    /*how to capitalize an element's text*/
+        text-transform: capitalize;}
+    
+    .search-btn{
+        width: 40px;
+        font-size: 18px;
+        color: grey;
+        border: none;
+        background: transparent;
+        outline: 0;
+        cursor: pointer;}

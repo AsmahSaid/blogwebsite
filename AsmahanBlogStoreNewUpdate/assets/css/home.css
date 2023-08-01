@@ -1,0 +1,157 @@
+/* design */
+.websitedesign{
+    padding: 20px;}
+
+.websiteheading{
+    text-align: center;
+    padding: 18px;}
+
+.websiteheading h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;}
+
+.websiteheading p{
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+.design-elementlist{
+    margin: 18px;}
+
+.design-element{
+    cursor: pointer;
+    margin: 15px;}
+
+.design-images{
+    position: relative;
+    overflow: hidden;}
+
+.design-images::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /*خلفية لون للصور في البلوج*/
+    background: rgba(140, 146, 85, 0.592);}
+
+.design-images img{
+    transition:  10px;}
+
+.design-images span:first-of-type{
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 10px;
+    background:#2b2b2b;
+    color: #fff;
+    padding: 10px;}
+
+.design-images span:last-of-type{
+    position: absolute;
+    z-index: 1;
+    bottom: 10px;
+    right: 10px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 10px;}
+
+.design-title{
+    padding: 8px;
+    font-size: 1.2rem;
+    text-align: justify;
+    width: 98%;
+    margin: auto;}
+
+.design-title a{
+    color: #3c393d;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;}
+
+    .button{
+    background-color: #fff;
+    border: 1px solid #a9aaaa;
+    border-radius: 10px;
+    box-shadow: rgba(141, 163, 163, 0.599) 0 2px 5px 0;
+    color: #2a2a2a;
+    display: inline-block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    width: 100px;
+    }
+    .button:hover {
+        background-color: #d4f4dd;
+      }
+      
+      .button:focus {
+        border-color: #9cec9a;
+        box-shadow: rgba(209, 241, 197, 0.764) 0 2px 5px 0;
+        outline: 0;
+      }
+ 
+
+/*استعلامات الوسائط: لتطبيق أنماط مختلفة لأنواع / أجهزة وسائط مختلفة*/
+@media screen and (min-width: 600px){
+    header-itemslist a{
+        padding-right: 15px;
+        padding-left: 15px;}
+
+    .designblog-title{
+        font-size: 70px;}
+
+    .designblog form{
+        margin-top: 12px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;}}
+
+@media screen and (min-width: 600px){
+    .headermenue .containermenue{
+        display: flex;/* OR Inline-Flex */
+        align-items: center;
+        justify-content: space-between;}
+
+    .inputinsearch{
+        padding: 5px;}
+
+    .design-elementlist{
+        display: grid;/*css grids */
+        grid-template-columns: repeat(2, 33.3%);
+        gap: 20px;}
+
+    .design-element{
+        margin: 0;}}
+    
+@media screen and (min-width: 901px){
+    .blog-content{
+        grid-template-columns: repeat(1, 33.3%);/*repeat(number of columns/rows, the column width we want);*/
+    }
+    .aboutme-elem{
+        display: grid;
+        grid-template-columns: repeat(2, 33.3%); /*repeat(number of columns/rows, the column width we want);*/
+        column-gap: 10px;
+        align-items: center;}}
+
+@media screen and (min-width: 901px){
+    .design-elementlist{
+        grid-template-columns: repeat(3, 33.3%); /*repeat(number of columns/rows, the column width we want);*/}}
+
+body{
+    line-height: 1.4;
+    color: #3c393d;}
+img{
+    width: 100%;
+    display: block;}
+
+.container{
+    max-width: 1320px;
+    margin: auto;
+    padding: 12px;}
+
+    .bold { font-weight: bold; }

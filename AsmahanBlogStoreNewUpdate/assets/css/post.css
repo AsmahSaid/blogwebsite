@@ -1,0 +1,60 @@
+
+/*  لون الهيدر الذي توجد به المنيو*/
+.headermenue{
+    background:#2d5c36;
+    padding: 20px;}
+.navbar-title{
+    color: white;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 0.8px;}
+
+    /*style of header item contactus, about store,homepage, categories*/
+.header-itemslist{
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;}
+
+.header-itemslist a{
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color:white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px;
+    letter-spacing: 3px;
+    transition: opacity 0.8}
+
+/* selector is used to select elements when you mouse over them */
+.header-itemslist a:hover{
+    opacity: 0.7;}
+
+    
+/* about */
+.about{
+    padding: 4.5rem 0;
+}
+.about-text{
+    margin: 2rem 0;
+}
+.about-text > p{
+    font-size: 1.1rem;
+    padding: 0.6rem 0;
+    opacity: 0.8;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-left: 20px;
+  }
+  .bold { font-weight: bold; }
+
